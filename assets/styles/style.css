@@ -1,0 +1,238 @@
+:root {
+  --blue: #1e9ee4;
+  --light-blue: #e7f7ff;
+  --dark-blue: #122c91;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #e7eaed;
+  --dark: #242424;
+  --border: 10px;
+}
+
+body {
+  font-family: 'Kanit', sans-serif;
+  width: 98vw;
+  height: 100vh;
+  margin: 0 0 0 0;
+  background-image: url('../img/6502013.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+a{
+    display: absolute;
+    color: var(--light);
+    text-decoration: none;
+}
+
+/* a:hover{
+    font-size: large; 
+}  */
+
+/* 
+-----------------------------------
+            OPTIONAL
+-----------------------------------
+*/
+.bg-dark {
+  background-color: var(--dark);
+}
+.bg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: var(--border);
+}
+.border {
+  border-radius: var(--border);
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.text-danger {
+  color: var(--danger);
+}
+
+.text-light {
+  color: var(--light);
+}
+.text-secondary {
+  color: var(--secondary);
+}
+
+.under-line{
+    border-bottom: 1px solid var(--light);
+    margin: 50px 0px 20px 0px;
+    width: 70%;
+}
+.link{
+    text-decoration: underline;
+    color: var(--dark);
+    background-color: var(--light);
+    padding: 0px 5px 0px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+/* 
+-----------------------------------
+            Content
+-----------------------------------
+*/
+.content {
+  padding: 20px;
+}
+/* 
+-----------------------------------
+            Navbar
+-----------------------------------
+*/
+.navbar {
+  height: 80px;
+}
+
+.navbar-menu {
+  display: flex;
+  margin: 0 5% 0 5%;
+}
+
+.navbar-menu-item {
+  padding: 5px;
+}
+
+.navbar-logo{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-icon {
+  min-height: 40px;
+  min-width: 40px;
+  background-color: #dc3545;
+  border-radius: 50%;
+}
+.navbar-name
+{
+    margin-left: 10px;
+    text-transform: uppercase;
+    
+}
+/* 
+-----------------------------------
+            Cover
+-----------------------------------
+*/
+.cover {
+  height: 500px;
+}
+/* 
+-----------------------------------
+            Detail
+-----------------------------------
+*/
+.detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #21252Bad;
+    padding: 2% 0 2% 0;
+}
+.detail-content {
+    padding: 0 20% 0 20%;
+}
+.detail-paragraph{
+    text-indent: 50px;
+}
+/* 
+-----------------------------------
+            Item
+-----------------------------------
+*/
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.item-list
+{
+    margin: 5px;
+    background-color: #282c34;
+    max-width: 250px;
+    min-height: 250px;
+    max-height: 450px;
+}
+.item-img{
+    min-height: 250px;
+    min-width: 250px;
+}
+.item-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-detail{
+    background-color: var(--light);
+    padding: 10px;
+    height: 150px;
+}
+.item-new{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: var(--danger);
+    width: 30%;
+    bottom: 5px;
+    border-radius: 5px;
+    color: var(--white);
+
+    margin-left: 92px;
+    margin-top: -13px;
+}
+
+/* 
+-----------------------------------
+            Footer
+-----------------------------------
+*/
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-item{
+    font-size: 0.8em;
+}
