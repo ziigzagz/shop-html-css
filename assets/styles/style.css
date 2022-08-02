@@ -22,7 +22,7 @@
   --danger: #dc3545;
   --light: #ADBAC7;
   --dark: #242424;
-  --border: 10px;
+  --border: 5px;
 }
 
 body {
@@ -61,7 +61,7 @@ a{
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
-  /* background-color: rgba(0, 0, 0, 0.7); */
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: var(--border);
 }
 .border {
