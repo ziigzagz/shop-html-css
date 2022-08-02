@@ -30,7 +30,7 @@ body {
   width: 98vw;
   height: 100vh;
   margin: 0 0 0 0;
-  background-color: #22272E;
+    background-color: rgba(0, 0, 0, 0.7);
   /* background-image: url('../img/6502013.jpg'); */
   background-repeat: no-repeat;
   background-size: auto;
@@ -80,8 +80,6 @@ a{
   padding: 10px;
 }
 
-
-
 .text-danger {
   color: var(--danger);
 }
@@ -95,7 +93,7 @@ a{
 
 .under-line{
     border-bottom: 1px solid var(--light);
-    margin: 50px 0px 20px 0px;
+    margin: 50px 0px 5px 0px;
     width: 70%;
 }
 .link{
